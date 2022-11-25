@@ -12,9 +12,10 @@ During this workshop, we will use the following softwares and packages:
 * RStudio or Jupyter Notebook
 * edgeR
 * fastqc
+* MultiQC
 * Galaxy (https://usegalaxy.org/)
 R should be installed on your machine, ideally with an interpreter (RStudio or Jupyter Notebook) and with the edgeR package. 
-fastqc is installed on the Mammouth node (see https://github.com/AudreyBaguette/MiCMSS_F22_IntroRNAseqFormats to connect) and Galaxy is a web-based tool.
+fastqc and MultiQC are installed on the Mammouth node (see https://github.com/AudreyBaguette/MiCMSS_F22_IntroRNAseqFormats to connect) and Galaxy is a web-based tool.
 
 ## Data
 ### Raw reads
@@ -37,7 +38,8 @@ Clone the git repository in the server. Download the data directly on the server
 
 * Overview of the preprocessing steps (35 min) 
     - From FASTQ files to raw read counts: what does each step mean?
-    - Fastqc and Galaxy
+    - Fastqc
+    - Galaxy
     - Quality Control report: what should be flagged?
     - Hands on: run a QC analysis amd interpret the results (15 min) 
 
