@@ -47,7 +47,7 @@ Clone the git repository in the server. Download the data directly on the server
     - Why do we normalize?
     - Common normalization techniques
     - Normalization in differential gene expression analysis
-    - Hands on: identify the appropriate normalization depending on the analysis (5 min) 
+    - Hands on: identify the appropriate model depending on the analysis (5 min) 
 
 **Lunch break**
 
