@@ -1,0 +1,63 @@
+[2022-11-26 15:42:42,499] multiqc                                            [DEBUG  ]  This is MultiQC v1.12
+[2022-11-26 15:42:42,499] multiqc                                            [DEBUG  ]  No MultiQC config found: /cvmfs/soft.mugqic/CentOS6/software/MultiQC/MultiQC-1.12/lib/python3.10/site-packages/multiqc_config.yaml
+[2022-11-26 15:42:42,500] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/aubag1/.multiqc_config.yaml
+[2022-11-26 15:42:42,500] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2022-11-26 15:42:42,500] multiqc                                            [DEBUG  ]  Command used: /cvmfs/soft.mugqic/CentOS6/software/MultiQC/MultiQC-1.12/bin/multiqc .
+[2022-11-26 15:42:43,359] multiqc                                            [WARNING]  MultiQC Version v1.13 now available!
+[2022-11-26 15:42:43,359] multiqc                                            [DEBUG  ]  Command     : /cvmfs/soft.mugqic/CentOS6/software/MultiQC/MultiQC-1.12/bin/multiqc .
+[2022-11-26 15:42:43,359] multiqc                                            [DEBUG  ]  Working dir : /home/aubag1/MiCMSS_F22_RNAseqQuantification/Data_solutions
+[2022-11-26 15:42:43,359] multiqc                                            [DEBUG  ]  Template    : default
+[2022-11-26 15:42:43,359] multiqc                                            [DEBUG  ]  Running Python 3.10.4 (main, Mar 31 2022, 11:10:16) [GCC 9.3.0]
+[2022-11-26 15:42:43,361] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2022-11-26 15:42:43,361] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpagttypjq
+[2022-11-26 15:42:43,605] multiqc                                            [INFO   ]  Search path : /home/aubag1/MiCMSS_F22_RNAseqQuantification/Data_solutions
+[2022-11-26 15:42:43,648] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,650] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,650] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,655] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,655] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,700] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,710] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,711] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,711] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,714] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,714] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,797] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,807] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,809] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,810] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,813] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,813] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,872] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:43,881] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,883] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,883] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,887] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,887] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,935] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: brain_66f_1000_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,941] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,943] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,943] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,945] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,945] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,949] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: tteTest.Rda
+[2022-11-26 15:42:43,955] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,956] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,956] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,959] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:43,959] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:44,007] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: left_ventricle_34m_100_rep1_R1_fastqc.html
+[2022-11-26 15:42:44,014] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:44,016] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:44,016] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:44,019] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:44,019] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:44,071] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: left_ventricle_34m_1000_rep1_R2_fastqc.html
+[2022-11-26 15:42:45,318] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.1
+[2022-11-26 15:42:45,319] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.1
+[2022-11-26 15:42:45,392] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 6 reports
+[2022-11-26 15:42:45,544] multiqc                                            [INFO   ]  Compressing plot data
+[2022-11-26 15:42:45,641] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2022-11-26 15:42:45,641] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2022-11-26 15:42:45,641] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpagttypjq/multiqc_data' to '/home/aubag1/MiCMSS_F22_RNAseqQuantification/Data_solutions/multiqc_data'
+[2022-11-26 15:42:45,810] multiqc                                            [INFO   ]  MultiQC complete
