@@ -18,18 +18,31 @@ R should be installed on your machine, ideally with an interpreter (RStudio or J
 fastqc and MultiQC are installed on the Mammouth node (see https://github.com/AudreyBaguette/MiCMSS_F22_IntroRNAseqFormats to connect) and Galaxy is a web-based tool.
 
 ## Data
-### Raw reads
-You can put the data in your space on the server with one of these 3 ways:
+* left_ventricle_34m_100_rep1_R1.fastq
+* left_ventricle_34m_100_rep1_R2.fastq
+* left_ventricle_34m_1000_rep1_R1.fastq
+* left_ventricle_34m_1000_rep1_R2.fastq
+* brain_66f_1000_rep1_R1.fastq
+* brain_66f_1000_rep1_R2.fastq
+* left_ventricle_34m.tsv
+* left_ventricle_3m.tsv
+* right_cardiac_atrium_34m.tsv
+* right_ventricle_34m.tsv
+* right_ventricle_3m.tsv
+
+The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the Data folder, on the server. They are also included in the Data folder of the repository. The details on how to download them from ENCODE is also included in the Scripts folder.
+
+You can put the data in your space on the server with one of these 4 ways:
 * The easy ways
 1. Copy the files from my folder to yours `cp -R /home/aubag1/MiCMSS_F22_IntroRNAseqFormats/Data .`
 OR
 2. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_F22_IntroRNAseqFormats/Data .`
 What is the difference between copying and creating a symbolic link? The `cp` command replicates the file in its entirety. This means that if 30 students copy a 1Gb file on their space, the files will take 31Gb (original + 30 copies) of space in total. Modifying your local copy will not change the original file. The `ln -s` command creates a shortcut to the path of the original file. This means that there will still be only one copy of the file in total, but it also means that changing the file through the symbolic link will change the original.
+OR
+3. Clone the repository.
 
 * The "hard" way, if you want a bit of a challenge.
 Clone the git repository in the server. Download the data directly on the server, following the instructions in the README file of the Data folder.
-
-### Read counts
 
 ## Outline
 * Introduction (5 min)
