@@ -34,9 +34,9 @@ The data we will use in this workshop comes from ENCODE and has been processed b
 
 You can put the data in your space on the server with one of these 4 ways:
 * The easy ways
-1. Copy the files from my folder to yours `cp -R /home/aubag1/MiCMSS_F22_IntroRNAseqFormats/Data .`
+1. Copy the files from my folder to yours `cp -R /home/aubag1/MiCMSS_F22_RNAseqQuantification/Data .`
 OR
-2. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_F22_IntroRNAseqFormats/Data .`
+2. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_F22_RNAseqQuantification/Data .`
 What is the difference between copying and creating a symbolic link? The `cp` command replicates the file in its entirety. This means that if 30 students copy a 1Gb file on their space, the files will take 31Gb (original + 30 copies) of space in total. Modifying your local copy will not change the original file. The `ln -s` command creates a shortcut to the path of the original file. This means that there will still be only one copy of the file in total, but it also means that changing the file through the symbolic link will change the original.
 OR
 3. Clone the repository.
